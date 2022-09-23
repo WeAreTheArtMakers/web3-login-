@@ -1,0 +1,69 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+     <!-- ICON -->
+    <link href="https://modfxmarket.com/street/img/street12.PNG" rel="icon">
+
+     <!-- Description -->
+    <meta name="description" content="WeAreTheArtMakers- WEB3 Login Page ">
+    
+    
+    <!-- Web3.js LIBRARY -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/web3/1.7.1/web3.min.js"
+      integrity="sha512-GKw4QT/RccGJIwQxY3MhyiQ5pHrhQ8SuKFEafV+WcpOvtz7iYFQuQGFCvmGlHLctJTe8KrWU1FqvF7VOkEAJtw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+ <!-- MetaMask Detection -->
+
+   <script src="https://unpkg.com/@metamask/detect-provider/dist/detect-provider.min.js"></script>
+
+
+    <!-- CSS STYLES -->
+    <link rel="stylesheet" href="index.css" />
+    <title>Web3 Login</title>
+  </head>
+  <body>
+
+    <!-- LOGIN SECTION -->
+    <section class="login-section">
+      <button class="login-btn">🔓 Log in with Web3</button>
+      <span class="instruction">
+        Ensure to have an wallet installed i.e MetaMask, Math Wallet....
+ 
+      </span>
+    </section>
+
+    <!-- DASHBOARD SECTION -->
+    <section class="dashboard-section">
+      <h2 class="wallet-status">Wallet Connected! 🤝</h2>
+      <h3 class="wallet-address-heading">
+        Your Wallet Address:
+        <span class="wallet-address"></span>
+      </h3>
+      <h3 class="wallet-balance-heading">
+       Your Balance:
+        <span class="wallet-balance"></span>
+      </h3>
+      <br>
+      <p style="color:#FFFFFF">We recommend you buy Street Money to visit our metaverse exhibitions free.</p>
+      <br>
+     <a href="http://modfxmarket.com/street/">
+      <img src="https://modfxmarket.com/street/img/street12.PNG" alt="Italian Trulli" width="300" height="300" > 
+      </a><br>
+      <button class="logout-btn">🔐 Log out</button>
+    </section>
+  </body>
+
+  <!-- SCRIPT -->
+  <script src="index.js"></script>
+</html>
